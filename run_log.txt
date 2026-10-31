@@ -1,0 +1,148 @@
+Using device: mps
+Characters: 1,115,394 | vocab size: 65
+
+=== Bigram | 4,225 parameters | lr=0.01 ===
+step     0 | train 4.7250 | val 4.7237 | train time    0.0s
+step   250 | train 2.7564 | val 2.7721 | train time    0.3s
+step   500 | train 2.5154 | val 2.5423 | train time    0.5s
+step   750 | train 2.4806 | val 2.5083 | train time    0.8s
+step  1000 | train 2.4690 | val 2.4968 | train time    1.0s
+step  1250 | train 2.4632 | val 2.4923 | train time    1.3s
+step  1500 | train 2.4601 | val 2.4917 | train time    1.5s
+step  1750 | train 2.4577 | val 2.4889 | train time    1.8s
+step  2000 | train 2.4563 | val 2.4874 | train time    2.1s
+step  2250 | train 2.4552 | val 2.4862 | train time    2.4s
+step  2500 | train 2.4544 | val 2.4852 | train time    2.6s
+step  2750 | train 2.4537 | val 2.4857 | train time    2.9s
+step  3000 | train 2.4532 | val 2.4835 | train time    3.1s
+
+--- Bigram sample ---
+
+Thaysntherelioscthithandin.
+ANombed oulouel RIO:
+Thid n tur go m,
+T:
+PENolord devorenoverden is
+D t thisscas le
+Heiet havenuke gor heagh cico me s mimerdndoun ave t.
+Thtl!
+LApu is yfond es nigond atonthy
+Wh I:
+
+
+Anaturveloromo'd.
+LOULUME ak
+FiEO:
+Ped nn c.
+ETERINTENIF ch'thim s hslll y atisin m tomeiss
+KI'nglereanofrd, wer s ds,
+S:
+
+Thie d hist, p inm tha h motre maken'd aQUKe th chisit bs DUKENULUM:
+
+Iforestisth's f abre oonttouer, ye stheer toyst tomoveas t t ithe besitho, selece;
+DUSO, hu.
+Pe, is IS:
+RI:
+II tid, n s aitlonde:
+f;
+Thouses.
+Thouplld t deckst
+My y plls? athty r tho d
+Wexfur, hy
+
+
+=== LSTM | 946,625 parameters | lr=0.003 ===
+step     0 | train 4.1694 | val 4.1690 | train time    0.0s
+step   250 | train 1.5501 | val 1.7196 | train time    7.6s
+step   500 | train 1.3952 | val 1.5839 | train time   15.3s
+step   750 | train 1.3315 | val 1.5383 | train time   22.8s
+step  1000 | train 1.2873 | val 1.5116 | train time   30.2s
+step  1250 | train 1.2559 | val 1.5079 | train time   37.8s
+step  1500 | train 1.2283 | val 1.4898 | train time   45.2s
+step  1750 | train 1.2101 | val 1.4926 | train time   52.7s
+step  2000 | train 1.1886 | val 1.4948 | train time   60.2s
+step  2250 | train 1.1735 | val 1.4901 | train time   67.6s
+step  2500 | train 1.1565 | val 1.5051 | train time   75.1s
+step  2750 | train 1.1455 | val 1.4980 | train time   82.6s
+step  3000 | train 1.1335 | val 1.5091 | train time   90.0s
+
+--- LSTM sample ---
+
+That needful of this new fast
+Will to look to convey.
+
+POLIXENES:
+That, bloody, three day no sort that
+sayest you into gracious drum.
+
+VOLUMNIA:
+What news?
+
+HASTINGS:
+Why! hap him young e'en you warrant very
+thing at her o'er 'manage-marking, Edward's name?
+
+TRANIO:
+Because Clifford and till the fiends
+parn'd and very Romeo; but I think,
+A noble point that comes offer'd.
+
+QUEEN MARGARET:
+Well, then let him still my four heart.
+
+GREMIO:
+Well, good Warwick! Well, if you say, it must be limate,
+And, if I speakly to do, harping nor
+were--though you pleased, of my hand should have stoop
+have with y
+
+
+=== Transformer | 826,433 parameters | lr=0.001 ===
+step     0 | train 4.3253 | val 4.3182 | train time    0.0s
+step   250 | train 2.2339 | val 2.2650 | train time   11.8s
+step   500 | train 1.8737 | val 1.9790 | train time   23.5s
+step   750 | train 1.6768 | val 1.8402 | train time   35.2s
+step  1000 | train 1.5746 | val 1.7704 | train time   47.0s
+step  1250 | train 1.5037 | val 1.7047 | train time   58.7s
+step  1500 | train 1.4603 | val 1.6640 | train time   70.5s
+step  1750 | train 1.4255 | val 1.6394 | train time   82.2s
+step  2000 | train 1.3983 | val 1.6143 | train time   93.9s
+step  2250 | train 1.3763 | val 1.5974 | train time  105.7s
+step  2500 | train 1.3621 | val 1.5918 | train time  117.4s
+step  2750 | train 1.3444 | val 1.5777 | train time  129.9s
+step  3000 | train 1.3316 | val 1.5692 | train time  141.8s
+
+--- Transformer sample ---
+
+That not Margaret England, sight she is the pride.
+Thou dost justs make blood devise with Angelo;
+That sacreth Camillo's denied drunk'd and the heavion
+Which favour.
+
+WARWICK:
+Sir, fond escall, live.
+
+HERMIONE:
+I know fill'd o' follow Marcius Edward, now the king.
+
+FRIAR LAURENCE:
+To yield in my fiends?
+
+QUEEN ELIZABETH:
+More flatter, we dishonour in gliberch
+Provosted him
+The hearties: but the side, he is suittles: make for the blood
+dishonour'd Warwick! Why doing hope the truth, wife
+Or humble, if I speakly to do not at more
+As to-morrow. Thou like you may bear pleasure.
+
+DUKE VINCENTIO:
+No 
+
+
+| Model | Params | Train Loss | Validation Loss | Training Time (s) | Generated Text Quality | Notes |
+|---|---|---|---|---|---|---|
+| Bigram | 4,225 | 2.4532 | 2.4835 | 3.1 | TODO (Low/Medium/High) | TODO |
+| LSTM | 946,625 | 1.1335 | 1.5091 | 90.0 | TODO (Low/Medium/High) | TODO |
+| Transformer | 826,433 | 1.3316 | 1.5692 | 141.8 | TODO (Low/Medium/High) | TODO |

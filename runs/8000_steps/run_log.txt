@@ -1,0 +1,206 @@
+Using device: mps
+Characters: 1,115,394 | vocab size: 65
+
+=== Bigram | 4,225 parameters | lr=0.01 ===
+step     0 | train 4.7250 | val 4.7237 | train time    0.0s
+step   250 | train 2.7564 | val 2.7721 | train time    0.3s
+step   500 | train 2.5154 | val 2.5423 | train time    0.6s
+step   750 | train 2.4806 | val 2.5083 | train time    0.8s
+step  1000 | train 2.4690 | val 2.4968 | train time    1.1s
+step  1250 | train 2.4632 | val 2.4923 | train time    1.4s
+step  1500 | train 2.4601 | val 2.4917 | train time    1.6s
+step  1750 | train 2.4577 | val 2.4889 | train time    1.9s
+step  2000 | train 2.4563 | val 2.4874 | train time    2.2s
+step  2250 | train 2.4552 | val 2.4862 | train time    2.4s
+step  2500 | train 2.4544 | val 2.4852 | train time    2.7s
+step  2750 | train 2.4537 | val 2.4857 | train time    2.9s
+step  3000 | train 2.4532 | val 2.4835 | train time    3.2s
+step  3250 | train 2.4527 | val 2.4831 | train time    3.5s
+step  3500 | train 2.4524 | val 2.4834 | train time    3.7s
+step  3750 | train 2.4521 | val 2.4831 | train time    4.0s
+step  4000 | train 2.4519 | val 2.4833 | train time    4.2s
+step  4250 | train 2.4515 | val 2.4842 | train time    4.5s
+step  4500 | train 2.4513 | val 2.4829 | train time    4.8s
+step  4750 | train 2.4510 | val 2.4834 | train time    5.0s
+step  5000 | train 2.4510 | val 2.4821 | train time    5.3s
+step  5250 | train 2.4509 | val 2.4850 | train time    5.5s
+step  5500 | train 2.4509 | val 2.4845 | train time    5.8s
+step  5750 | train 2.4507 | val 2.4856 | train time    6.1s
+step  6000 | train 2.4507 | val 2.4849 | train time    6.3s
+step  6250 | train 2.4504 | val 2.4847 | train time    6.6s
+step  6500 | train 2.4502 | val 2.4836 | train time    6.8s
+step  6750 | train 2.4502 | val 2.4846 | train time    7.1s
+step  7000 | train 2.4500 | val 2.4861 | train time    7.4s
+step  7250 | train 2.4502 | val 2.4846 | train time    7.6s
+step  7500 | train 2.4501 | val 2.4852 | train time    7.9s
+step  7750 | train 2.4501 | val 2.4853 | train time    8.1s
+step  8000 | train 2.4499 | val 2.4829 | train time    8.4s
+
+--- Bigram sample ---
+
+Thaysntherelioscthithandin.
+ANombed aing tl RIO:
+Thid n tur go m,
+T:
+PENolord devorenoverden is
+D t thisacas le
+Heiet havenuke g h heagh cico me s mimeryoursme bl t.
+Thtl!
+LApu is yfond es nigond atonthy
+Wh I:
+
+
+Anaturveloromo'd.
+LOULUMI ak
+Findive d nn c.
+ETERINTENor ch'thim s hslll y atisin m tomeiss
+KI'nglereanofrd, wer s ds,
+S:
+
+Thie d hist, p int tha h motrererere'd aloue th chisit bs DUKENULUM:
+
+Iforthe sth'A:
+Saby, oonttouer, ye stheer toyst tomoveas y y ithe besitho, selece;
+DUSO, mu.
+Pe, is IS:
+RI:
+II tid, n s aitlonde:
+f;
+Thouses.
+Thouplld t deckst
+My y plls? athty r tho d
+Wexfur, hy
+
+
+=== LSTM | 946,625 parameters | lr=0.003 ===
+step     0 | train 4.1694 | val 4.1690 | train time    0.0s
+step   250 | train 1.5501 | val 1.7196 | train time  607.3s
+step   500 | train 1.3952 | val 1.5839 | train time 2481.8s
+step   750 | train 1.3315 | val 1.5382 | train time 3596.1s
+step  1000 | train 1.2874 | val 1.5117 | train time 4734.2s
+step  1250 | train 1.2560 | val 1.5081 | train time 6722.9s
+step  1500 | train 1.2283 | val 1.4903 | train time 7662.1s
+step  1750 | train 1.2113 | val 1.4943 | train time 10467.7s
+step  2000 | train 1.1887 | val 1.4921 | train time 12054.9s
+step  2250 | train 1.1740 | val 1.4907 | train time 13948.9s
+step  2500 | train 1.1565 | val 1.5022 | train time 15937.7s
+step  2750 | train 1.1442 | val 1.4961 | train time 18537.4s
+step  3000 | train 1.1354 | val 1.5141 | train time 21266.2s
+step  3250 | train 1.1194 | val 1.5181 | train time 22333.5s
+step  3500 | train 1.1100 | val 1.5225 | train time 22341.2s
+step  3750 | train 1.1024 | val 1.5222 | train time 22349.1s
+step  4000 | train 1.0914 | val 1.5272 | train time 22357.1s
+step  4250 | train 1.0834 | val 1.5357 | train time 22365.0s
+step  4500 | train 1.0743 | val 1.5390 | train time 22372.9s
+step  4750 | train 1.0659 | val 1.5371 | train time 22380.8s
+step  5000 | train 1.0598 | val 1.5465 | train time 22388.7s
+step  5250 | train 1.0526 | val 1.5574 | train time 22396.6s
+step  5500 | train 1.0495 | val 1.5607 | train time 22404.4s
+step  5750 | train 1.0416 | val 1.5597 | train time 22412.1s
+step  6000 | train 1.0356 | val 1.5648 | train time 22419.7s
+step  6250 | train 1.0304 | val 1.5625 | train time 22427.4s
+step  6500 | train 1.0235 | val 1.5724 | train time 22435.1s
+step  6750 | train 1.0223 | val 1.5677 | train time 22442.7s
+step  7000 | train 1.0136 | val 1.5864 | train time 22450.4s
+step  7250 | train 1.0106 | val 1.5838 | train time 22458.1s
+step  7500 | train 1.0102 | val 1.5858 | train time 22465.8s
+step  7750 | train 1.0016 | val 1.5835 | train time 22473.4s
+step  8000 | train 0.9956 | val 1.5957 | train time 22481.3s
+
+--- LSTM sample ---
+
+That never brother than the lightning of the gods.
+Then do I justify all hoped, by this,
+Thou call'dst me as lose in person king's hour,
+And Warwick be thy son with a limb!
+
+First Musicies:
+By him, Jemell! Hence with her sooth'd.
+
+QUEEN MARGARET:
+Peace, come but a good queen: she lost it,
+Till I find frights the world is more flattering,
+And frown in blind fortune dirge.
+
+QUEEN MARGARET:
+Why, then, tell you, sir, thou but love.
+
+ROMEO:
+Well, Tarquin Capolar!
+
+ROMEO:
+
+JULIET:
+Good friend, my father, thou thy dangerous;
+And most unfides with issue, say you may
+My Lord Aumarious very wealth this 
+
+
+=== Transformer | 826,433 parameters | lr=0.001 ===
+step     0 | train 4.3253 | val 4.3182 | train time    0.0s
+step   250 | train 2.2339 | val 2.2650 | train time   12.1s
+step   500 | train 1.8737 | val 1.9790 | train time   24.2s
+step   750 | train 1.6768 | val 1.8402 | train time   36.3s
+step  1000 | train 1.5746 | val 1.7704 | train time   48.3s
+step  1250 | train 1.5037 | val 1.7047 | train time   60.3s
+step  1500 | train 1.4603 | val 1.6640 | train time   72.3s
+step  1750 | train 1.4255 | val 1.6394 | train time   84.3s
+step  2000 | train 1.3983 | val 1.6143 | train time   96.3s
+step  2250 | train 1.3763 | val 1.5974 | train time  108.3s
+step  2500 | train 1.3621 | val 1.5918 | train time  120.3s
+step  2750 | train 1.3444 | val 1.5777 | train time  132.3s
+step  3000 | train 1.3316 | val 1.5692 | train time  144.4s
+step  3250 | train 1.3195 | val 1.5608 | train time  156.4s
+step  3500 | train 1.3139 | val 1.5642 | train time  168.8s
+step  3750 | train 1.3037 | val 1.5606 | train time  181.1s
+step  4000 | train 1.2944 | val 1.5368 | train time  193.1s
+step  4250 | train 1.2876 | val 1.5478 | train time  205.2s
+step  4500 | train 1.2839 | val 1.5413 | train time  217.2s
+step  4750 | train 1.2737 | val 1.5309 | train time  229.3s
+step  5000 | train 1.2658 | val 1.5281 | train time  241.3s
+step  5250 | train 1.2613 | val 1.5184 | train time  253.4s
+step  5500 | train 1.2572 | val 1.5272 | train time  265.5s
+step  5750 | train 1.2518 | val 1.5217 | train time  277.5s
+step  6000 | train 1.2456 | val 1.5199 | train time  289.6s
+step  6250 | train 1.2421 | val 1.5180 | train time  301.7s
+step  6500 | train 1.2385 | val 1.5144 | train time  313.7s
+step  6750 | train 1.2343 | val 1.5177 | train time  325.8s
+step  7000 | train 1.2294 | val 1.5143 | train time  337.8s
+step  7250 | train 1.2260 | val 1.5148 | train time  349.8s
+step  7500 | train 1.2232 | val 1.5121 | train time  361.8s
+step  7750 | train 1.2189 | val 1.5037 | train time  373.9s
+step  8000 | train 1.2150 | val 1.5106 | train time  385.9s
+
+--- Transformer sample ---
+
+They not; 'tis coffended for the shame, that I must do.
+
+LADY ANNE:
+But bloody, I see how no cousin and scatchet
+Is there nurse in hour, I consent my brother favour.
+
+WARWICK:
+Sir, fond escallenly, be sword with mine avoid,
+Would all my take and unburning.
+
+KING RICHARD III:
+O Lord of Hereford, to die by God;
+O, brind, were fearful so, and not I poison him.
+
+DERBY:
+Troy.
+
+QUEEN MARGARET:
+We then, if you grant stay you by you;
+And in your house, you to possess you
+No gossing, see, now you must pe, if you
+challent do, have amongst from out off count
+Which one them speech at he retired
+With this 
+
+
+| Model | Params | Train Loss | Validation Loss | Training Time (s) | Generated Text Quality | Notes |
+|---|---|---|---|---|---|---|
+| Bigram | 4,225 | 2.4499 | 2.4829 | 8.4 | TODO (Low/Medium/High) | TODO |
+| LSTM | 946,625 | 0.9956 | 1.5957 | 22481.3 | TODO (Low/Medium/High) | TODO |
+| Transformer | 826,433 | 1.2150 | 1.5106 | 385.9 | TODO (Low/Medium/High) | TODO |
