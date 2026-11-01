@@ -224,8 +224,7 @@ larger than this project could test. My result shows the start of that: the tran
 after the LSTM had started to overfit.
 
 ## 9. Responsible AI use
-I used Claude (claude.ai and Claude Code) on this project. `ai_use_summary.md` lists exactly what Claude
-did, including drafting the explanations and analysis in this README, and what I did myself.
+I used Claude (claude.ai and Claude Code) throughout this project. Claude assisted with the initial code, experiment execution, and documentation drafts. I directed the project, decided to run the extended 8,000-step comparison, and reviewed the results and the final submission. See `ai_use_summary.md` for details.
 
 ## Reproduce
 Tested with Python 3.13.
